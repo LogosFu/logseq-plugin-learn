@@ -1,0 +1,27 @@
+{
+  "name": "logseq-demo",
+  "version": "0.0.1",
+  "description": "A demo",
+  "main": "dist/index.html",
+  "author": "©shiwei.fu",
+  "license": "MIT",
+  "targets": {
+    "main": false
+  },
+  "default": "dist/index.html",
+  "scripts": {
+    "dev": "parcel ./index.html --public-url ./",
+    "build": "parcel build --public-url . --no-source-maps index.html"
+  },
+  "devDependencies": {
+    "@logseq/libs": "^0.0.6",
+    "parcel": "^2.0.0"
+  },
+  "logseq": {
+    "id": "demo-2023-08",
+    "icon": "./logo.png"
+  },
+  "dependencies": {
+    "@joeattardi/emoji-button": "^4.6.4"
+  }
+}
